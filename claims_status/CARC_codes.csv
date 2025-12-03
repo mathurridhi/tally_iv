@@ -1,0 +1,287 @@
+﻿DenialCode,DenialDescription,DenialCategory,FinalSteps,CodeType
+1,Deductible Amount,Patient Responsibility,Bill patient for deductible amount,CARC
+2,Coinsurance Amount,Patient Responsibility,Bill patient for coinsurance,CARC
+3,Co-payment Amount,Patient Responsibility,Bill patient for copay,CARC
+4,The procedure code is inconsistent with the modifier used,Procedure/Modifier Incorrect,Review and resubmit with correct modifier,CARC
+5,The procedure code/bill type is inconsistent with the place of service,Missing or Invalid Information,Verify POS and resubmit,CARC
+6,The procedure/revenue code is inconsistent with the patient's age,Missing or Invalid Information,Verify patient age and correct code,CARC
+7,The procedure/revenue code is inconsistent with the patient's gender,Missing or Invalid Information,Verify patient gender and correct code,CARC
+8,The procedure code is inconsistent with the provider type/specialty,Missing or Invalid Information,Verify provider specialty and resubmit,CARC
+9,The diagnosis is inconsistent with the patient's age,Missing or Invalid Information,Review diagnosis code and patient age,CARC
+10,The diagnosis is inconsistent with the patient's gender,Missing or Invalid Information,Review diagnosis code and patient gender,CARC
+11,The diagnosis is inconsistent with the procedure,Missing or Invalid Information,Ensure diagnosis supports procedure,CARC
+12,The diagnosis is inconsistent with the provider type,Missing or Invalid Information,Verify provider type and diagnosis,CARC
+13,The date of death precedes the date of service,Missing or Invalid Information,Verify dates and resubmit,CARC
+14,The date of birth follows the date of service,Missing or Invalid Information,Verify DOB and resubmit,CARC
+15,The authorization number is missing invalid or does not apply to the billed services,No Authorization,Obtain valid authorization and resubmit,CARC
+16,Claim/service lacks information or has submission/billing error(s),Missing or Invalid Information,Review claim and provide missing information,CARC
+18,Exact duplicate claim/service,Duplicate Claims,Verify not a duplicate; if duplicate no action needed,CARC
+19,This is a work-related injury/illness and thus the liability of the Workers' Compensation Carrier,Claim Submitted to incorrect payor,Submit to Workers' Compensation,CARC
+20,This injury/illness is covered by the liability carrier,Claim Submitted to incorrect payor,Submit to liability carrier,CARC
+21,This injury/illness is the liability of the no-fault carrier,Claim Submitted to incorrect payor,Submit to no-fault carrier,CARC
+22,This care may be covered by another payer per coordination of benefits,Claim Submitted to incorrect payor,Submit to primary payer first,CARC
+23,The impact of prior payer(s) adjudication including payments and/or adjustments,Awaiting Eligibility Information,Wait for primary payer EOB and resubmit,CARC
+24,Charges are covered under a capitation agreement/managed care plan,Non Covered Charges,No further action - covered under capitation,CARC
+25,Payment denied - Your Stop Loss deductible has not been met,Maximum Benefit Met,Monitor for stop loss threshold,CARC
+26,Expenses incurred prior to coverage,Not Eligible,Patient responsibility - notify patient,CARC
+27,Expenses incurred after coverage terminated,Policy Terminated,Patient responsibility - notify patient,CARC
+29,The time limit for filing has expired,Timely Filing,Appeal with proof of timely filing if applicable,CARC
+31,Patient cannot be identified as our insured,Not Eligible,Verify patient eligibility and resubmit,CARC
+32,Our records indicate that this dependent is not an eligible dependent,Not Eligible,Verify dependent eligibility,CARC
+33,Insured has no dependent coverage,Not Eligible,Patient responsibility - notify patient,CARC
+34,Insured has no coverage for newborns,Not Eligible,Patient responsibility - notify patient,CARC
+35,Lifetime benefit maximum has been reached,Maximum Benefit Met,Patient responsibility - notify patient,CARC
+36,Balance does not exceed co-payment amount,Patient Responsibility,Bill patient,CARC
+37,Balance does not exceed deductible,Patient Responsibility,Bill patient,CARC
+38,Services not provided or authorized by designated provider,No Authorization,Obtain authorization and resubmit,CARC
+39,Services denied at the time authorization/pre-certification was requested,No Authorization,Appeal with medical necessity documentation,CARC
+40,Charges do not meet qualifications for emergent/urgent care,Medical Necessity,Appeal with documentation of emergency,CARC
+41,Discount agreed to in Preferred Provider contract,Contractual Adjustment,No further action - contractual write-off,CARC
+42,Charges exceed our fee schedule or maximum allowable amount,Contractual Adjustment,No further action - contractual write-off,CARC
+44,Prompt-pay discount,Contractual Adjustment,No further action,CARC
+45,Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement,Contractual Adjustment,No further action - contractual write-off,CARC
+49,This is a non-covered service because it is a routine exam or screening procedure,Non Covered Charges,Patient responsibility - notify patient,CARC
+50,These are non-covered services because this is not deemed a 'medical necessity',Medical Necessity,Appeal with medical necessity documentation,CARC
+51,These are non-covered services because this is a pre-existing condition,Non Covered Charges,Patient responsibility - notify patient,CARC
+53,Services by an immediate relative or a member of the same household are not covered,Non Covered Charges,Patient responsibility - notify patient,CARC
+54,Multiple physicians/assistants are not covered in this case,Non Covered Charges,Coordinate with other provider,CARC
+55,Procedure/treatment is deemed experimental/investigational by the payer,Non Covered Charges,Appeal with evidence-based research or notify patient,CARC
+56,Procedure/treatment has not been deemed 'proven to be effective' by the payer,Medical Necessity,Appeal with medical necessity documentation,CARC
+58,Treatment was deemed by the payer to have been rendered in an inappropriate or invalid place of service,Missing or Invalid Information,Verify POS and appeal if appropriate,CARC
+59,Processed based on multiple or concurrent procedure rules,Contractual Adjustment,No further action - per contract,CARC
+60,Charges for outpatient services with an inpatient admission,Missing or Invalid Information,Review and correct billing,CARC
+61,Penalty for failure to obtain second surgical opinion,Non Covered Charges,Patient responsibility,CARC
+66,Blood Deductible,Patient Responsibility,Bill patient,CARC
+69,Day outlier amount,Reimbursement Adjustment,Post as payment adjustment,CARC
+70,Cost outlier amount,Reimbursement Adjustment,Post as payment adjustment,CARC
+74,Indirect Medical Education adjustment,Reimbursement Adjustment,Post as payment adjustment,CARC
+75,Direct Medical Education adjustment,Reimbursement Adjustment,Post as payment adjustment,CARC
+76,Disproportionate Share adjustment,Reimbursement Adjustment,Post as payment adjustment,CARC
+78,Non-covered charges/services,Non Covered Charges,Patient responsibility - notify patient,CARC
+89,Not covered unless emergency or urgent care,Medical Necessity,Appeal if emergency or patient responsibility,CARC
+90,Service not covered unless performed/billed by an appropriate provider/supplier,Missing or Invalid Information,Verify rendering provider credentials,CARC
+91,Facility/equipment not appropriate for procedure/service,Missing or Invalid Information,Verify facility type,CARC
+94,Processed in excess of charges,Reimbursement Adjustment,Post as payment adjustment,CARC
+95,Plan procedures not followed,No Authorization,Review plan requirements and appeal,CARC
+96,Non-covered charges,Non Covered Charges,Patient responsibility - notify patient,CARC
+97,The benefit for this service is included in the payment/allowance for another service/procedure,Bundled Services,No further action - bundled,CARC
+100,Payment made to patient/insured/responsible party,Paid Claims,Recover from patient if applicable,CARC
+101,Predetermination: anticipated payment upon completion of services or claim adjudication,Awaiting Eligibility Information,Submit completed claim,CARC
+102,Processed information for network adequacy,Informational,No action required,CARC
+103,Medicare Advantage enrollee - services not covered by plan,Non Covered Charges,Bill Medicare or patient,CARC
+104,Processed under Medicaid ACA enhanced fee schedule,Reimbursement Adjustment,Post as payment adjustment,CARC
+105,Tax withholding,Reimbursement Adjustment,Post as payment adjustment,CARC
+106,Prior payment being cancelled as patient is not liable,Payment Reversal,Refund payment if received,CARC
+107,Policy benefits exhausted,Maximum Benefit Met,Patient responsibility - notify patient,CARC
+108,Rent/purchase guidelines not met,DME Certification needed,Provide rental/purchase documentation,CARC
+109,Claim not covered by this payer/contractor,Claim Submitted to incorrect payor,Submit to correct payer,CARC
+110,Billing date predates service date,Missing or Invalid Information,Correct billing date and resubmit,CARC
+111,Not covered unless the provider accepts assignment,Non Covered Charges,Accept assignment or patient responsibility,CARC
+112,Service not furnished directly to the patient and/or not documented,Medical Necessity,Provide documentation of service,CARC
+114,Procedure/product not approved by regulatory agency,Non Covered Charges,Patient responsibility,CARC
+115,Procedure postponed cancelled or delayed,Missing or Invalid Information,Resubmit when service performed,CARC
+116,Medicare Advantage payment,Paid Claims,Post payment,CARC
+117,Transportation is only covered to the closest facility,Non Covered Charges,Patient responsibility for excess,CARC
+118,Claim processed under ESRD composite rate,Reimbursement Adjustment,Post as payment adjustment,CARC
+119,Benefit maximum for this time period/occurrence has been reached,Maximum Benefit Met,Patient responsibility - notify patient,CARC
+121,Indemnity insurance payment,Paid Claims,Post payment,CARC
+122,Psychiatric reduction,Contractual Adjustment,No further action,CARC
+125,Submission/billing error - claim submitted with multiple lines should have single line,Missing or Invalid Information,Correct and resubmit on single line,CARC
+128,Newborn's services are covered in the mother's allowance,Non Covered Charges,Bill under mother's account,CARC
+129,Prior processing information appears incorrect,Missing or Invalid Information,Verify prior payer information and resubmit,CARC
+130,Claim could not be identified in the database,No claim on file,Verify claim was received and resubmit,CARC
+131,Claim specific negotiated discount,Contractual Adjustment,No further action,CARC
+132,Adjusted by the payer based on prior adjudicated claims,Reimbursement Adjustment,Post as payment adjustment,CARC
+133,Claim overlaps inpatient stay,Missing or Invalid Information,Review dates and resubmit,CARC
+134,Technical component not payable in this circumstance,Non Covered Charges,Bill appropriate component only,CARC
+135,Interim bills cannot be processed,Missing or Invalid Information,Submit final bill,CARC
+136,Failure to follow prior payer's coverage rules,Claim Submitted to incorrect payor,Follow primary payer rules and resubmit,CARC
+137,Regulatory surcharges/assessments/allowances,Reimbursement Adjustment,Post as payment adjustment,CARC
+138,Appeal procedures not followed,Missing or Invalid Information,Follow appeal procedures,CARC
+139,Contracted funding agreement - Subscriber is employed by the provider,Non Covered Charges,Per contract terms,CARC
+140,Patient/Insured health identification number and name do not match,Not Eligible,Verify patient information and resubmit,CARC
+141,Claim spans eligible and ineligible period of coverage,Not Eligible,Split claim by eligible dates,CARC
+142,SBR supplemental coverage is not on file,Awaiting Eligibility Information,Provide supplemental insurance information,CARC
+143,Portion of payment deferred,Awaiting Eligibility Information,Wait for final payment determination,CARC
+144,Incentive adjustment,Reimbursement Adjustment,Post as payment adjustment,CARC
+145,Provider credentialing/recredentialing - rate pending,Awaiting Eligibility Information,Complete credentialing process,CARC
+146,Diagnosis/condition not covered,Non Covered Charges,Patient responsibility - notify patient,CARC
+147,Provider contracted/negotiated rate expired/not on file,Require Pricing Information,Negotiate contract or provide rate information,CARC
+148,Information from another provider was not provided or not provided timely,Additional information requested,Obtain and submit required information,CARC
+149,Lifetime benefit maximum has been reached for this service/procedure,Maximum Benefit Met,Patient responsibility - notify patient,CARC
+150,Payer deems the information submitted does not support this level/type of service,Medical Necessity,Appeal with supporting documentation,CARC
+151,Payment adjusted because the payer deems the information submitted does not support this many services,Medical Necessity,Appeal with supporting documentation,CARC
+152,Payer deems the information submitted does not support this length of service,Medical Necessity,Appeal with supporting documentation,CARC
+153,Payer deems the information submitted does not support this dosage,Medical Necessity,Appeal with supporting documentation,CARC
+154,Payer deems the information submitted does not support this day's supply,Medical Necessity,Appeal with supporting documentation,CARC
+155,Patient refused the service/procedure,Non Covered Charges,Patient responsibility - document refusal,CARC
+157,Service/procedure was provided as a result of an act of war,Claim Submitted to incorrect payor,Submit to appropriate war-related coverage,CARC
+158,Service/procedure was provided outside of the United States,Non Covered Charges,Verify coverage for international services,CARC
+159,Service/procedure was provided as a result of terrorism,Claim Submitted to incorrect payor,Submit to appropriate terrorism-related coverage,CARC
+160,Injury/illness was the result of an activity that is a benefit exclusion,Non Covered Charges,Patient responsibility - notify patient,CARC
+161,Provider performance program withhold,Reimbursement Adjustment,Post as payment adjustment,CARC
+162,State-mandated Requirement for Property and Casualty,TFL,Submit to Property and Casualty carrier,CARC
+163,Attachment referenced on claim not received,Additional information requested,Submit required attachments,CARC
+164,Attachment referenced on claim not received in a timely manner,Additional information requested,Submit attachments timely,CARC
+165,Attachment/other documentation not on file,Additional information requested,Submit required documentation,CARC
+166,These services were submitted after this payer's timely filing period,Timely Filing,Appeal with proof of timely filing,CARC
+167,Not authorized by network/primary care providers,No Authorization,Obtain authorization from PCP,CARC
+168,Service performed in a geographic location outside of our network,Non Covered Charges,Appeal if emergency or patient responsibility,CARC
+169,Alternate benefit has been provided,Reimbursement Adjustment,Post as payment adjustment,CARC
+170,Payment reduced when performed by this type of provider,Reimbursement Adjustment,Post as payment adjustment,CARC
+171,Payment reduced when performed or billed by this type of provider in this type of facility,Reimbursement Adjustment,Post as payment adjustment,CARC
+172,Payment reduced/not paid because payment included in another service,Bundled Services,No further action - bundled,CARC
+173,Service was not prescribed by physician,No Authorization,Obtain physician prescription,CARC
+174,Service was not ordered by a physician,No Authorization,Obtain physician order,CARC
+175,Prescription is incomplete,Missing or Invalid Information,Obtain complete prescription,CARC
+176,Prescription is not current,Missing or Invalid Information,Obtain current prescription,CARC
+177,Patient has not met required eligibility requirements,Not Eligible,Verify eligibility requirements,CARC
+178,Patient has not met spend down liability,Patient Responsibility,Patient must meet spend down,CARC
+179,Claim submitted with incomplete remittance advice,Missing or Invalid Information,Submit complete remittance advice,CARC
+180,Patient has not met the patient pay amount requirement,Patient Responsibility,Patient must meet pay amount,CARC
+181,Procedure code not on fee schedule or was deleted,Missing or Invalid Information,Verify correct procedure code,CARC
+182,Procedure modifier was invalid,Procedure/Modifier Incorrect,Correct modifier and resubmit,CARC
+183,Chain referral not on file,No Authorization,Submit referral documentation,CARC
+184,Pharmacy discount card processing fee,Reimbursement Adjustment,Post as payment adjustment,CARC
+185,Claim denied as ordering/referring provider is not eligible to order/refer,Missing or Invalid Information,Verify provider eligibility,CARC
+186,Level of care change adjustment,Reimbursement Adjustment,Post as payment adjustment,CARC
+187,Consumer Spending Account payments,Paid Claims,Post payment,CARC
+188,Claim failed provider access check,Missing or Invalid Information,Verify provider network status,CARC
+189,Not otherwise classified or unlisted procedure code,Missing or Invalid Information,Use specific procedure code or provide documentation,CARC
+190,Payment made on a conditional basis,Paid Claims,May need to refund if conditions not met,CARC
+191,Not a work-related injury/illness,Claim Submitted to incorrect payor,Submit to health insurance,CARC
+192,Non-covered charges not sent to patient by provider,Non Covered Charges,Patient responsibility - notify patient,CARC
+193,Original claim not covered,Non Covered Charges,Patient responsibility - notify patient,CARC
+194,Anesthesia provided by rendering provider,Bundled Services,No further action - bundled,CARC
+195,Patient has not met required eligibility waiting period or limitations,Not Eligible,Verify eligibility status,CARC
+196,Claim contains late charges,Timely Filing,Verify timely filing,CARC
+197,Precertification/authorization/notification absent,No Authorization,Obtain required precertification,CARC
+198,Precertification/authorization exceeded,No Authorization,Obtain additional authorization,CARC
+199,Revenue code/procedure code inconsistent with type of bill,Missing or Invalid Information,Correct revenue or procedure code,CARC
+200,Expenses incurred during lapse in coverage,Not Eligible,Patient responsibility - coverage lapsed,CARC
+201,Workers' Compensation case settled,Claim Submitted to incorrect payor,Patient responsibility per settlement,CARC
+202,Non-covered personal comfort or convenience services,Non Covered Charges,Patient responsibility - notify patient,CARC
+203,Discontinued or reduced service,Reimbursement Adjustment,Post as payment adjustment,CARC
+204,This service/equipment/drug is not covered under the patient's current benefit plan,Non Covered Charges,Patient responsibility - notify patient,CARC
+205,Pharmacy discount card only covers generics,Non Covered Charges,Patient responsibility - brand not covered,CARC
+206,National Provider Identifier missing,Missing or Invalid Information,Add NPI and resubmit,CARC
+207,National Provider Identifier not valid,Missing or Invalid Information,Verify correct NPI and resubmit,CARC
+208,National Provider Identifier not eligible,Missing or Invalid Information,Verify provider eligibility,CARC
+209,Per regulatory or other agreement - claim must be submitted to another payer,Claim Submitted to incorrect payor,Submit to correct payer,CARC
+210,Claim not submitted by network provider,Non Covered Charges,Must use network provider,CARC
+211,National Drug Codes (NDC) not eligible for rebate,Reimbursement Adjustment,Post as payment adjustment,CARC
+212,Administrative surcharge,Reimbursement Adjustment,Post as payment adjustment,CARC
+213,Non-compliance with prior authorization/utilization management,No Authorization,Obtain proper authorization,CARC
+214,Deductible exceeded due to coordination of benefits,Patient Responsibility,Bill patient,CARC
+215,Based on subrogation of a third party settlement,Reimbursement Adjustment,Post as payment adjustment,CARC
+216,Based on prior payer's information,Reimbursement Adjustment,Verify prior payer adjudication,CARC
+217,Processed based on multiple or concurrent procedures,Bundled Services,No further action - bundled,CARC
+218,Paid to the patient because assignment was not accepted,Paid Claims,Recover from patient,CARC
+219,Processed based on ancillary service/product,Bundled Services,No further action - bundled,CARC
+220,Penalty or interest payment,Paid Claims,Post payment,CARC
+221,Workers' Compensation offset,Reimbursement Adjustment,Post as payment adjustment,CARC
+222,Exceeds the contracted maximum number of hours/days/units,Maximum Benefit Met,Patient responsibility - exceeds maximum,CARC
+223,Adjust code not valid for date of service,Missing or Invalid Information,Use valid code and resubmit,CARC
+224,Patient identification compromised by identity theft,Awaiting Eligibility Information,Resolve identity theft issue,CARC
+225,Penalty for failure to document timely filing appeal,Timely Filing,Follow timely filing appeal procedures,CARC
+226,Information requested from the Billing/Rendering Provider not provided,Additional information requested,Provide requested information,CARC
+227,Information requested from the patient/insured not provided,Additional information requested,Obtain information from patient,CARC
+228,Denied for failure of provider to update claims/eligibility data,Missing or Invalid Information,Update provider information,CARC
+229,Partial charge/unit amount not on file,Require Pricing Information,Provide unit pricing information,CARC
+230,Services provided are for an unproven off-label use,Medical Necessity,Appeal with supporting evidence,CARC
+231,Mutually exclusive procedures cannot be done in the same day,Missing or Invalid Information,Review procedures and dates,CARC
+232,Institutional transfer amount,Reimbursement Adjustment,Post as payment adjustment,CARC
+233,Claim overlaps home health agency admission and discharge,Missing or Invalid Information,Coordinate billing with HHA,CARC
+234,This procedure is not paid separately,Bundled Services,No further action - bundled,CARC
+235,Sales tax,Reimbursement Adjustment,Post as payment adjustment,CARC
+236,Legislated/regulatory penalty,Reimbursement Adjustment,Post as payment adjustment,CARC
+237,Legislated/regulatory add-on,Reimbursement Adjustment,Post as payment adjustment,CARC
+238,Claim submitted with missing information,Missing or Invalid Information,Provide missing information and resubmit,CARC
+239,Claim submitted with invalid information,Missing or Invalid Information,Correct invalid information and resubmit,CARC
+240,The diagnosis is inconsistent with the patient's birth weight,Missing or Invalid Information,Verify birth weight and diagnosis,CARC
+241,Low birth weight not met,Missing or Invalid Information,Verify birth weight criteria,CARC
+242,Services not provided by preferred network providers,Non Covered Charges,Use preferred network or patient responsibility,CARC
+243,Service not performed by provider/physician specialist,Non Covered Charges,Refer to appropriate specialist,CARC
+244,Payment reduced due to Third Party Liability,TFL,Submit to liable third party,CARC
+245,Provider is contracted and claim must be submitted by facility or other entity,Missing or Invalid Information,Facility must submit claim,CARC
+246,Processed under Medicaid managed care plan,Paid Claims,Post payment,CARC
+247,Claim has been rejected as provider has not provided adequate documentation,MR Needed,Submit required medical records,CARC
+248,Claim has been denied as services were not provided by approved provider,Missing or Invalid Information,Use approved provider,CARC
+249,This claim has been identified as a readmission,Reimbursement Adjustment,Review readmission policy,CARC
+250,Adjustment based on claim submission,Reimbursement Adjustment,Post as payment adjustment,CARC
+251,Attachment/other documentation not received in timely manner,Additional information requested,Submit documentation timely,CARC
+252,Attachment/other documentation received,Informational,No action required,CARC
+253,Sequestration - reduction in federal payment,Reimbursement Adjustment,Post as payment adjustment,CARC
+254,Claim received by payer's contracted/related entity,Awaiting Eligibility Information,Wait for processing,CARC
+255,Additional payment for Dental/Vision services,Paid Claims,Post payment,CARC
+256,Service not payable per managed care contract,Non Covered Charges,Per managed care agreement,CARC
+257,Missing/incomplete/invalid provider or supplier signature,Missing or Invalid Information,Obtain valid signature and resubmit,CARC
+258,Claim submitted with missing/incomplete/invalid patient or authorized representative signature,Missing or Invalid Information,Obtain valid signature and resubmit,CARC
+259,Additional payment for Hospice services,Paid Claims,Post payment,CARC
+260,Processed under Medicaid ACA 1115 demonstration/waiver,Paid Claims,Post payment,CARC
+261,The procedure or service is inconsistent with the patient's history,Medical Necessity,Provide documentation of medical necessity,CARC
+262,Adjustment for delivery,Reimbursement Adjustment,Post as payment adjustment,CARC
+263,Adjustment for shipping,Reimbursement Adjustment,Post as payment adjustment,CARC
+264,Processed under OPPS,Paid Claims,Post payment,CARC
+265,Claim/service spans multiple months,Missing or Invalid Information,Split claim by month,CARC
+266,Appeal time limits not met,Timely Filing,Cannot appeal - time limit expired,CARC
+267,Claim adjusted due to CMS PERT,Reimbursement Adjustment,Post as payment adjustment,CARC
+268,Claim adjudicated and payment issued to another party,Paid Claims,Verify payment recipient,CARC
+269,Anesthesia not covered for this service,Non Covered Charges,Patient responsibility,CARC
+270,Claim received by the dental plan but benefits not available,Not Eligible,Verify dental coverage,CARC
+271,Prior contractual reductions,Contractual Adjustment,No further action,CARC
+272,Coverage/program guidelines were not met,Medical Necessity,Review guidelines and appeal if met,CARC
+273,Claim received by dental plan but primary care benefits not available,Not Eligible,Verify primary care dental coverage,CARC
+274,Procedure/service was provided as part of a screening service,Non Covered Charges,Verify coverage for screening,CARC
+275,Prior payer's (or payers') patient responsibility (deductible coinsurance copayment),Patient Responsibility,Bill patient for prior payer responsibility,CARC
+276,Services denied by the prior payer(s) are not covered by this payer,Non Covered Charges,Patient responsibility - not covered,CARC
+277,Denied/reduced due to Medical Savings Account provisions,Not Eligible,Patient responsibility - MSA,CARC
+278,Denied/reduced for failure to obtain a Certification of Medical Necessity,DME Certification needed,Obtain CMN and resubmit,CARC
+279,Denied/reduced for failure to provide appropriate consent forms,Missing or Invalid Information,Obtain consent forms and resubmit,CARC
+280,Denied/reduced based on procedure code submitted by chiropractor,Non Covered Charges,Verify chiropractic coverage,CARC
+281,Denied/reduced - no valid National Drug Code on file,Missing or Invalid Information,Provide valid NDC and resubmit,CARC
+282,Denied/reduced - the submitted prescription/order is not current,Missing or Invalid Information,Obtain current prescription,CARC
+283,Attending provider is not eligible to provide direction of care,Missing or Invalid Information,Use eligible provider,CARC
+284,Denied/reduced - patient does not reside in service area,Not Eligible,Patient outside service area,CARC
+285,Appeal upheld,Denied on Appeal,No further action - denial upheld,CARC
+286,Appeal denied,Denied on Appeal,Consider external review,CARC
+287,Appeal information not received,Additional information requested,Submit appeal information,CARC
+288,Claim was not filed in a timely manner,Timely Filing,Appeal with proof of timely filing,CARC
+289,Claim denied due to incomplete/invalid prior authorization,No Authorization,Obtain complete authorization,CARC
+290,Claim denied due to appeal decision,Denied on Appeal,No further action,CARC
+291,Claim denied due to commercial coverage,Claim Submitted to incorrect payor,Submit to commercial insurance,CARC
+292,Claim adjusted due to prior overpayment,Payment Reversal,Refund overpayment,CARC
+293,Claim denied due to managed care plan decision,Non Covered Charges,Per managed care plan,CARC
+294,Claim forwarded to another payer for processing,Claim Submitted to incorrect payor,Wait for correct payer to process,CARC
+295,Claim denied based on group policy provision,Non Covered Charges,Patient responsibility per policy,CARC
+296,Claim adjusted based on bundling or unbundling provisions,Bundled Services,No further action,CARC
+297,Claim denied due to prior approval requirement,No Authorization,Obtain prior approval,CARC
+298,Claim denied due to sequestration reduction,Reimbursement Adjustment,Post as payment adjustment,CARC
+299,Claim adjusted due to Medicare Advantage payment,Paid Claims,Post payment,CARC
+300,Late filing penalty,Timely Filing,Appeal if applicable,CARC
+301,Claim received by payer but forwarded to state Medicaid agency,Claim Submitted to incorrect payor,Wait for state Medicaid processing,CARC
+302,Claim received by payer but not yet processed,Awaiting Eligibility Information,Wait for processing,CARC
+303,Claim received by payer but benefits suspended,Not Eligible,Verify benefit status,CARC
+304,Claim received by payer but provider must submit supporting documentation,Additional information requested,Submit supporting documentation,CARC
+305,Claim received by payer but returned to provider for resubmission,Missing or Invalid Information,Correct and resubmit,CARC
+306,Claim received by payer but tertiary filing,Claim Submitted to incorrect payor,Submit to tertiary payer,CARC
+307,Claim received by payer but Medicare is the primary payer,Claim Submitted to incorrect payor,Submit to Medicare first,CARC
+308,Claim received by payer but payment reduced to zero due to litigation,Awaiting Eligibility Information,Wait for litigation resolution,CARC
+309,Services not ordered by a physician,No Authorization,Obtain physician order,CARC
+310,Services ordered by a physician but not authorized by qualified practitioner,No Authorization,Obtain authorization from qualified practitioner,CARC
+311,Claim denied as not reasonable or necessary,Medical Necessity,Appeal with medical necessity documentation,CARC
+312,Claim denied due to exceeded number of hours/days/units,Maximum Benefit Met,Patient responsibility,CARC
+313,Claim denied as patient has elected hospice,Non Covered Charges,Coordinate with hospice,CARC
+314,Claim adjusted as patient has elected managed care,Reimbursement Adjustment,Per managed care agreement,CARC
+315,Claim denied due to service not being provided in an approved facility,Missing or Invalid Information,Use approved facility,CARC
+316,Claim denied due to lack of medical necessity,Medical Necessity,Appeal with medical necessity documentation,CARC
+317,Claim adjusted based on federal sequestration,Reimbursement Adjustment,Post as payment adjustment,CARC
+318,Claim denied as patient received services during a period of non-covered stay,Not Eligible,Patient responsibility,CARC
+319,Claim denied due to coordination of benefits with Medicare,Claim Submitted to incorrect payor,Submit to Medicare first,CARC
+320,Claim adjusted as contractual discount applies,Contractual Adjustment,No further action,CARC
+321,Claim denied as patient is not liable for services,Non Covered Charges,No patient liability,CARC
+322,Claim adjusted due to patient's financial liability,Patient Responsibility,Bill patient,CARC
+323,Claim adjusted based on member's eligibility status,Not Eligible,Verify eligibility,CARC
+324,Claim denied as duplicate of a previously processed claim,Duplicate Claims,No action - duplicate,CARC
+325,Claim adjusted based on medical review,Medical Necessity,Review medical necessity criteria,CARC
+326,Claim denied due to incorrect rendering provider,,,CARC
